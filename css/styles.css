@@ -73,6 +73,12 @@ body {
 	margin: 0;
 }
 
+.header-social img {
+	width: 36px;
+	height: 36px;
+	display: block;
+}
+
 .header-links {
 	margin-top: 40px;
 	font-size: 0;
@@ -104,13 +110,12 @@ body {
 }
 
 .header-box {
-	width: 635px;
-	margin: 0 auto;
+	/* width: 635px; */
+	margin: 65px auto 0;
 }
 
 .header-info {
 	font-size: 0;
-	margin: 65px 0 0;
 }
 
 .header-name {
@@ -123,7 +128,8 @@ body {
 .header-desc {
 	font-size: 0;
 	padding: 20px 31px;
-	margin: 48px 0 0;
+	margin: 48px auto 0;
+	width: 635px;
 }
 
 .header-desc li {
@@ -178,15 +184,15 @@ section {
 }
 
 
-main>section {
+/* main>section {
 	background-color: #FFE482;
 	color: #3D3D3D;
 	font-weight: 500;
-}
+} */
 
 main>section {
 	background-color: #0C151D;
-	color: #FFF;
+	color: #A3ABB2;
 	font-weight: 500;
 }
 
