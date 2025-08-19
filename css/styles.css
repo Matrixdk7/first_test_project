@@ -19,6 +19,14 @@ body {
 	font-size: 37px;
 }
 
+.theme-change {
+	width: 80px;
+	height: 80px;
+	border: 20px solid #171F26;
+	border-radius: 50%;
+	background: #171F26;
+}
+
 /* HEADER */
 .header {
 	text-align: center;
@@ -110,7 +118,6 @@ body {
 }
 
 .header-box {
-	/* width: 635px; */
 	margin: 65px auto 0;
 }
 
@@ -129,14 +136,21 @@ body {
 	font-size: 0;
 	padding: 20px 31px;
 	margin: 48px auto 0;
-	width: 635px;
+	/* width: 635px; */
 }
 
 .header-desc li {
 	display: inline-block;
-	width: 33.333%;
+	width: 150px;
 	font-size: 22px;
 	color: #A3ABB2;
+	margin: 0 90px 0 0;
+	vertical-align: top;
+	text-align: center;
+}
+
+.header-desc li:last-child {
+	margin-right: 0;
 }
 
 /* MAIN */
