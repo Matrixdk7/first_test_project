@@ -98,13 +98,13 @@ main>section {
 	font-weight: 500;
 }
 
-main>section+section {
+main>section {
 	background-color: #0C151D;
 	color: #FFF;
 	font-weight: 500;
 }
 
-main>section+section+section {
+main>section+section {
 	background-color: #FFE482;
 	color: #3D3D3D;
 	font-weight: 500;
