@@ -29,10 +29,13 @@ body {
 	background: red;
 	width: 215px;
 	height: 215px;
-	margin: 0 auto;
+	/* margin: 0 auto; */
 	border-radius: 50%;
 	overflow: hidden;
 	border: 6px solid #FFE071;
+	display: inline-block;
+	font-size: 22px;
+	vertical-align: middle;
 }
 
 .header-photo img {
@@ -42,7 +45,6 @@ body {
 }
 
 .header-title {
-	margin: 30px 0 0;
 	font-weight: 500;
 	font-size: 46px;
 	color: #F1F2F4;
@@ -53,12 +55,22 @@ body {
 	margin: 10px 0 0;
 }
 
-.header-desc {
-	margin: 39px 0 0;
+.header-social {
+	display: inline-block;
+	margin: 12px 0 0;
+	font-size: 0;
 }
 
-.header-desc>ul>li {
-	margin: 10px 0 0;
+.header-social li {
+	/* margin: 10px 0 0; */
+	display: inline-block;
+	margin: 0 0 0 26px;
+	object-fit: cover;
+	font-size: 22px;
+}
+
+.header-social li:first-child {
+	margin: 0;
 }
 
 .header-links {
@@ -75,11 +87,12 @@ body {
 	font-size: 22px;
 	width: 290px;
 	font-weight: 500;
+	border-radius: 10px;
 }
 
 .header-links a:hover {
-	background: #A3ABB2;
-	color: #FFE071;
+	background: #171F26;
+	color: #A3ABB2;
 }
 
 .header-links a:focus {
@@ -88,6 +101,36 @@ body {
 
 .header-links a:last-child {
 	margin-left: 20px;
+}
+
+.header-box {
+	width: 635px;
+	margin: 0 auto;
+}
+
+.header-info {
+	font-size: 0;
+	margin: 65px 0 0;
+}
+
+.header-name {
+	display: inline-block;
+	font-size: 22px;
+	margin: 0 0 0 45px;
+	vertical-align: middle;
+}
+
+.header-desc {
+	font-size: 0;
+	padding: 20px 31px;
+	margin: 48px 0 0;
+}
+
+.header-desc li {
+	display: inline-block;
+	width: 33.333%;
+	font-size: 22px;
+	color: #A3ABB2;
 }
 
 /* MAIN */
@@ -113,7 +156,7 @@ section {
 
 .portfolio-cards {
 	font-size: 0;
-	margin: 0 -15px;
+	margin: 40px -15px 0;
 }
 
 .portfolio-card {
