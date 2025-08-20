@@ -69,7 +69,6 @@ body {
 }
 
 .header-social {
-	display: inline-block;
 	margin: 12px 0 0;
 	font-size: 0;
 }
@@ -139,8 +138,8 @@ body {
 
 .header-desc {
 	font-size: 0;
-	padding: 20px 31px;
-	margin: 48px auto 0;
+	padding: 20px 0;
+	margin: 48px 0 0;
 	/* width: 635px; */
 }
 
