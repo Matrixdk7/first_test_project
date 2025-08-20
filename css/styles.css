@@ -19,12 +19,17 @@ body {
 	font-size: 37px;
 }
 
-.theme-change {
+.theme-change img {
 	width: 80px;
 	height: 80px;
 	border: 20px solid #171F26;
 	border-radius: 50%;
 	background: #171F26;
+}
+
+.theme-change img:hover {
+	background: #FFE071;
+	border: 20px solid #FFE071;
 }
 
 /* HEADER */
