@@ -7,31 +7,33 @@
 }
 
 /* First Block */
-.first-block {
+/* .first-block {
 	font-size: 0;
-}
+} */
 
 .first-block div{
 	width: 400px;
 	height: 400px;
 	outline: solid 1px;
-	display: inline-block;
-	font-size: 22px;
+	/* display: inline-block;
+	font-size: 22px; */
 	background-color: green;
+	float: left;
 }
 
 /* Second block */
-.second-block {
+/* .second-block {
 	font-size: 0;
-}
+} */
 
 .second-block>div {
 	background-color: lightblue;
 	outline: solid 1px;
 	width: 800px;
 	height: 400px;
-	display: inline-block;
-	font-size: 22px;
+	/* display: inline-block;
+	font-size: 22px; */
+	float: left;
 }
 
 .second-block>div>div {
@@ -51,17 +53,18 @@
 }
 
 /* Third block */
-.third-block {
+/* .third-block {
 	font-size: 0;
-}
+} */
 
 .third-block>div {
 	width: 400px;
 	height: 400px;
 	outline: solid 1px;
-	display: inline-block;
+	/* display: inline-block; */
 	background-color: lightpink;
-	font-size: 22px;
+	/* font-size: 22px; */
+	float: left;
 }
 
 .third-block>div+div {
@@ -78,11 +81,18 @@
 	width: 400px;
 	height: 200px;
 	outline: solid 1px;
-	display: inline-block;
-	font-size: 22px;
+	/* display: inline-block;
+	font-size: 22px; */
+	float: left;
 }
 
 .third-block>div+div>div+div>div+div>div {
 	height: 100px;
 	outline: solid 1px;
+}
+
+.clearfix::after {
+	content: '';
+	clear: both;
+	display: block;
 }
