@@ -1,5 +1,13 @@
 @import url('reset.css');
 
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
 /* GLOBAL CLASSES */
 body {
 	font-family: "Poppins", sans-serif;
@@ -42,7 +50,6 @@ body {
 	background: red;
 	width: 215px;
 	height: 215px;
-	/* margin: 0 auto; */
 	border-radius: 50%;
 	overflow: hidden;
 	border: 6px solid #FFE071;
@@ -58,7 +65,6 @@ body {
 }
 
 .header-title {
-	font-weight: 500;
 	font-size: 46px;
 	color: #F1F2F4;
 }
@@ -74,7 +80,6 @@ body {
 }
 
 .header-social li {
-	/* margin: 10px 0 0; */
 	display: inline-block;
 	margin: 0 0 0 26px;
 	object-fit: cover;
@@ -104,7 +109,6 @@ body {
 	display: inline-block;
 	font-size: 22px;
 	width: 290px;
-	font-weight: 500;
 	border-radius: 10px;
 }
 
@@ -140,7 +144,6 @@ body {
 	font-size: 0;
 	padding: 20px 0;
 	margin: 48px 0 0;
-	/* width: 635px; */
 }
 
 .header-desc li {
@@ -164,7 +167,6 @@ main {
 
 main h2 {
 	font-size: 37px;
-	font-weight: 500;
 	text-transform: uppercase;
 }
 
@@ -201,23 +203,14 @@ section {
 	object-fit: cover;
 }
 
-
-/* main>section {
-	background-color: #FFE482;
-	color: #3D3D3D;
-	font-weight: 500;
-} */
-
 main>section {
 	background-color: #0C151D;
 	color: #A3ABB2;
-	font-weight: 500;
 }
 
 main>section+section {
 	background-color: #FFE482;
 	color: #3D3D3D;
-	font-weight: 500;
 }
 
 /* footer */
