@@ -7,23 +7,31 @@
 }
 
 /* First Block */
+.first-block {
+	font-size: 0;
+}
 
 .first-block div{
 	width: 400px;
 	height: 400px;
 	outline: solid 1px;
+	display: inline-block;
+	font-size: 22px;
 	background-color: green;
-	float: left;
 }
 
 /* Second block */
+.second-block {
+	font-size: 0;
+}
 
 .second-block>div {
 	background-color: lightblue;
 	outline: solid 1px;
 	width: 800px;
 	height: 400px;
-	float: left;
+	display: inline-block;
+	font-size: 22px;
 }
 
 .second-block>div>div {
@@ -33,6 +41,8 @@
 
 .second-block>div+div {
 	width: 400px;
+	display: inline-block;
+	font-size: 22px;
 }
 
 .second-block>div+div>div {
@@ -41,13 +51,17 @@
 }
 
 /* Third block */
+.third-block {
+	font-size: 0;
+}
 
 .third-block>div {
 	width: 400px;
 	height: 400px;
 	outline: solid 1px;
+	display: inline-block;
 	background-color: lightpink;
-	float: left;
+	font-size: 22px;
 }
 
 .third-block>div+div {
@@ -57,22 +71,18 @@
 .third-block>div+div>div {
 	height: 200px;
 	outline: solid 1px;
+	font-size: 0;
 }
 
 .third-block>div+div>div+div>div {
 	width: 400px;
 	height: 200px;
 	outline: solid 1px;
-	float: left;
+	display: inline-block;
+	font-size: 22px;
 }
 
 .third-block>div+div>div+div>div+div>div {
 	height: 100px;
 	outline: solid 1px;
-}
-
-.clearfix::after {
-	content: '';
-	clear: both;
-	display: block;
 }
