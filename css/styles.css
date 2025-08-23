@@ -132,8 +132,8 @@
 
 .second-block-float>div+div {
 	width: 400px;
-	display: inline-block;
-	font-size: 22px;
+	/* display: inline-block;
+	font-size: 22px; */
 }
 
 .second-block-float>div+div>div {
@@ -158,6 +158,7 @@
 
 .third-block-float>div+div {
 	width: 800px;
+	height: auto;
 }
 
 .third-block-float>div+div>div {
