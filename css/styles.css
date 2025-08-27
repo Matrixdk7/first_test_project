@@ -294,7 +294,7 @@ body {
 }
 
 .portfolio-card {
-	flex: 0 1 30%;
+	flex: 0 1 33.3333%;
 	/* border: 1px solid #EEEEEE; */
 	padding: 15px 15px;
 }
