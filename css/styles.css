@@ -170,7 +170,7 @@ body {
 .about-do-images {
 	/* margin-top: 50px; */
 	/* gap: 30px; */
-	/* justify-content: center; */
+	justify-content: center;
 	display: flex;
 	flex-wrap: wrap;
 	margin: 50px -15px 0;
