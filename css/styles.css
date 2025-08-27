@@ -168,8 +168,6 @@ body {
 }
 
 .about-do-images {
-	/* margin-top: 50px; */
-	/* gap: 30px; */
 	justify-content: center;
 	display: flex;
 	flex-wrap: wrap;
@@ -238,29 +236,6 @@ body {
 	margin-top: 10px;
 }
 
-/* FOOTER */
-
-.footer {
-	background-color: #2F303A;
-	padding: 60px 0;
-}
-
-.footer-contacts {
-	margin-top: 20px;
-	display: flex;
-	flex-direction: column;
-	gap: 9px;
-	color: #fff;
-	font-weight: 400;
-}
-
-.footer-contacts a {
-	text-decoration: none;
-	color: #fff;
-	filter: brightness(60%);
-}
-
-
 /* PORTFOLIO */
 .portfolio {
 	padding: 94px 0;
@@ -290,12 +265,10 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	margin: 19px -15px 0;
-	/* gap: 30px; */
 }
 
 .portfolio-card {
 	flex: 0 1 33.3333%;
-	/* border: 1px solid #EEEEEE; */
 	padding: 15px 15px;
 }
 
@@ -327,4 +300,26 @@ body {
 	font-size: 16px;
 	font-weight: 400;
 	color: #757575;
+}
+
+/* FOOTER */
+
+.footer {
+	background-color: #2F303A;
+	padding: 60px 0;
+}
+
+.footer-contacts {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 9px;
+	color: #fff;
+	font-weight: 400;
+}
+
+.footer-contacts a {
+	text-decoration: none;
+	color: #fff;
+	filter: brightness(60%);
 }
