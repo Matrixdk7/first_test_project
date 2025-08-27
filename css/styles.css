@@ -146,7 +146,7 @@ body {
 }
 
 .about-list > li {
-	width: 270px;
+	flex: 1 1 20%;
 }
 
 .about-list h3 {
@@ -264,12 +264,13 @@ body {
 .portfolio-cards {
 	display: flex;
 	flex-wrap: wrap;
-	margin: 19px -15px 0;
+	margin: 34px -15px 0;
+	row-gap: 30px;
 }
 
 .portfolio-card {
 	flex: 0 1 33.3333%;
-	padding: 15px 15px;
+	padding: 0 15px;
 }
 
 .portfolio-card-cover {
@@ -316,10 +317,15 @@ body {
 	gap: 9px;
 	color: #fff;
 	font-weight: 400;
+	align-items: flex-start;
+}
+
+.footer-logo {
+	display: inline-block;
 }
 
 .footer-contacts a {
 	text-decoration: none;
 	color: #fff;
-	filter: brightness(60%);
+	opacity: 60%;
 }
