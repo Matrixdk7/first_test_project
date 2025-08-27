@@ -289,12 +289,17 @@ body {
 .portfolio-cards {
 	display: flex;
 	flex-wrap: wrap;
-	margin: 34px 0 0;
-	gap: 30px;
+	margin: 19px -15px 0;
+	/* gap: 30px; */
 }
 
 .portfolio-card {
-	flex: 1 1 30%;
+	flex: 0 1 30%;
+	/* border: 1px solid #EEEEEE; */
+	padding: 15px 15px;
+}
+
+.portfolio-card-cover {
 	border: 1px solid #EEEEEE;
 }
 
